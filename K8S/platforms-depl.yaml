@@ -19,7 +19,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: platforms-clusterid-srv
+  name: platforms-clusterip-srv
 spec:
   type: ClusterIP
   selector:
