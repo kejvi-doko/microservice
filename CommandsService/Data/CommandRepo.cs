@@ -45,7 +45,7 @@ public class CommandRepo:ICommandRepo
         throw new NotImplementedException();
     }
 
-    public void CrateCommand(int platformId, Command command)
+    public void CreateCommand(int platformId, Command command)
     {
         throw new NotImplementedException();
     }

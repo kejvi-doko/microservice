@@ -12,6 +12,6 @@ public interface ICommandRepo
 
     IEnumerable<Command> GetCommandsForPlatform(int platformId);
     Command GetCommand(int platformId,int commandId);
-    void CrateCommand(int platformId, Command command);
+    void CreateCommand(int platformId, Command command);
 
 }
