@@ -17,6 +17,7 @@ public class GrpcPlatformService:GrpcPlatform.GrpcPlatformBase
 
     public override Task<PlatformResponse> GetAllPlatforms(GetAllRequest request, ServerCallContext context)
     {
+        Console.WriteLine("Calling grpc client");
         var response = new PlatformResponse();
         var platforms = _repo.GetAllPlatforms();
         foreach (var platform in platforms)

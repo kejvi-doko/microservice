@@ -36,17 +36,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Protobuf Include="Protos\platform.proto">
-        <GrpcServices>Server</GrpcServices>
-        <Access>Public</Access>
-        <ProtoCompile>True</ProtoCompile>
-        <CompileOutputs>True</CompileOutputs>
-        <OutputDir>obj\Debug/net7.0/</OutputDir>
-        <Generator>MSBuild:Compile</Generator>
-      </Protobuf>
-    </ItemGroup>
-
-    <ItemGroup>
         <Protobuf Include="Protos\platform.proto" GrpcServices="Client" />
     </ItemGroup>
 </Project>
